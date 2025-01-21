@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>тест на тип личности</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <script src="js/index1.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" class="logo"><strong>ИССЛЕДОВАТЕЛЬСКИЙ</strong> ПРОЕКТ</a>
+                <button class="dark-mode-btn "> 
+                    <img src="./assets/icons/sun.svg" class="dark-mode-btn__icon">
+                    <img src="./assets/icons/moon.svg" class="dark-mode-btn__icon">
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Проект</a></li>
+                    <li class="nav-list__item"><a href="./index1.html" class="nav-list__link">Руководитель</a></li>
+                    <li class="nav-list__item"><a href="./index2.html" class="nav-list__link">Выполнил</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <header>
+        <img src="./assets/headertest.jpg" class="imgheadertest">
+    </header>
+    <main>
+        <div class="test conteiner3">
+            <ol>
+                <li>Какой у вас характер?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1" id="calm"
+                        value="A">
+                    <label class="form-check-label" for="calm">
+                        Cпокойный, медлительный, обстоятельный, сдержанный, миролюбивый.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1" id="timid"
+                        value="B">
+                    <label class="form-check-label" for="timid">
+                        Робкий, застенчивый, обидчивый, впечатлительный, нерешительный.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1" id="energy"
+                        value="C">
+                    <label class="form-check-label" for="energy">
+                        Энергичный, неугомонный, шаловливый, горячий, задиристый.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="1" id="cheerful"
+                        value="D">
+                    <label class="form-check-label" for="cheerful">
+                        Жизнелюбивый, оптимистичный, компромиссный, общительный, склонный к риску.
+                    </label>
+                </div>
+                <li>Какие эмоции вы наиболее часто испытываете?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2" id="plus"
+                        value="A">
+                    <label class="form-check-label" for="plus">
+                        положительные, бурных реакций нет.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2" id="fear"
+                        value="B">
+                    <label class="form-check-label" for="fear">
+                        Страх
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2" id="angry"
+                        value="C">
+                    <label class="form-check-label" for="angry">
+                        Гнев, бурные эмоции
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="2" id="much"
+                        value="D">
+                    <label class="form-check-label" for="much">
+                        Положительные эмоции, много смеюсь.
+                    </label>
+                </div>
+                <li>Какие игры вам нравятся?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="loud"
+                        value="A">
+                    <label class="form-check-label" for="loud">
+                        уединенные, тихие, спокойные.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="loved"
+                        value="B">
+                    <label class="form-check-label" for="loved">
+                        уединенные, тихие; подвижные и шумные – только с близкими.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="gambling"
+                        value="C">
+                    <label class="form-check-label" for="gambling">
+                        азартные, шумные, подвижные, даже агрессивные.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="3" id="so"
+                        value="D">
+                    <label class="form-check-label" for="so">
+                        всякие, но чтобы было весело.
+                    </label>
+                </div>
+                <li>Как реагируете на наказание?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="no"
+                        value="A">
+                    <label class="form-check-label" for="no">
+                        практически без эмоций
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="negativelt"
+                        value="B">
+                    <label class="form-check-label" for="negativelt">
+                        негативно, с обидой
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="vigoro"
+                        value="C">
+                    <label class="form-check-label" for="vigoro">
+                        на словесные – спокойно, на другие – с бурным протестом.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="4" id="culm"
+                        value="D">
+                    <label class="form-check-label" for="culm">
+                        спокойно.
+                    </label>
+                </div>
+                <li>Как ведете себя в неожиданных ситуациях?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5" id="smoll"
+                        value="A">
+                    <label class="form-check-label" for="smoll">
+                        малоэмоционально
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5" id="instinct"
+                        value="B">
+                    <label class="form-check-label" for="instinct">
+                        пытаюсь избежать этой ситуации (инстинкт самосохранения)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5" id="fait"
+                        value="C">
+                    <label class="form-check-label" for="fait">
+                        пытаюсь сопротивляться (потребность борьбы)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="5" id="ship"
+                        value="D">
+                    <label class="form-check-label" for="ship">
+                        проявляю любопытство (выраженное позитивное отношение)
+                    </label>
+                </div>
+                <li>Насколько вы общительны?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="6" id="prefer"
+                        value="A">
+                    <label class="form-check-label" for="prefer">
+                        предпочитаю уединение
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="6" id="socialy"
+                        value="B">
+                    <label class="form-check-label" for="socialy">
+                        предпочитаю уединение, общителен только с близкими.
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="6" id="look"
+                        value="C">
+                    <label class="form-check-label" for="look">
+                        нуждаюсь в зрителях и сподвижниках
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="6" id="love"
+                        value="D">
+                    <label class="form-check-label" for="love">
+                        люблю общество и взрослых, и детей, знакомлюсь быстро.
+                    </label>
+                </div>
+                <li>Какое положение вы занимаете среди сверстников, есть ли лидерские качества?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="7" id="have"
+                        value="A">
+                    <label class="form-check-label" for="have">
+                        авторитета и качеств лидера не имею
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="7" id="friend"
+                        value="B">
+                    <label class="form-check-label" for="friend">
+                        не лидер, авторитет имею в узком кругу друзей
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="7" id="friends"
+                        value="C">
+                    <label class="form-check-label" for="friends">
+                        сам себя выдвигаю лидером, но сверстники по-разному к этому относятся
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="7" id="lider"
+                        value="D">
+                    <label class="form-check-label" for="lider">
+                        прирожденный лидер, душа компании
+                    </label>
+                </div>
+                <li>Особенности памяти</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="8" id="slowly"
+                        value="A">
+                    <label class="form-check-label" for="slowly">
+                        Запоминаю медленно, но запоминаю и почти не забываю целое (хорошая долговременная память)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="8" id="mini"
+                        value="B">
+                    <label class="form-check-label" for="mini">
+                        запоминаю по-разному, больше вникаю в мелочи (неуверенность в себе мешает долговременной памяти,
+                        а то, что много отвлекаюсь, - кратковременной)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="8" id="run"
+                        value="C">
+                    <label class="form-check-label" for="run">
+                        быстро запоминаю детали, но быстро забываю (кратковременная память хорошо развита,
+                        долговременная – в зачаточном состоянии)
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="8" id="long"
+                        value="D">
+                    <label class="form-check-label" for="long">
+                        быстро и легко схватываю целое и долго помню (хорошая долговременная и кратковременная память)
+                    </label>
+                </div>
+                <li>Как усваивается новое?</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="9" id="kiki"
+                        value="A">
+                    <label class="form-check-label" for="kiki">
+                        медленно, зато обстоятельно
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="9" id="from"
+                        value="B">
+                    <label class="form-check-label" for="from">
+                        зависит от обстоятельств
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="9" id="froms"
+                        value="C">
+                    <label class="form-check-label" for="froms">
+                        схватываю на лету, но быстро забываю
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="9" id="ezy"
+                        value="D">
+                    <label class="form-check-label" for="ezy">
+                        быстро и легко
+                    </label>
+                </div>
+                <li>Утомляемость:</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="10" id="soo"
+                        value="A">
+                    <label class="form-check-label" for="soo">
+                        очень низкая, почти не устаю
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="10" id="high"
+                        value="B">
+                    <label class="form-check-label" for="high">
+                        высокая, любая деятельность вызывает упадок сил
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="10" id="usuly"
+                        value="C">
+                    <label class="form-check-label" for="usuly">
+                        иногда средняя, а иногда высокая, зависит от моих эмоций
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="10" id="medium"
+                        value="D">
+                    <label class="form-check-label" for="medium">
+                        средняя, устаю соразмерно деятельности
+                    </label>
+                </div>
+                <li>Особенности речи:</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="11" id="noo"
+                        value="A">
+                    <label class="form-check-label" for="noo">
+                        медленная, без жестов, невыразительная
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="11" id="but"
+                        value="B">
+                    <label class="form-check-label" for="but">
+                        тихая и неуверенная, но выразительная
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="11" id="screem"
+                        value="C">
+                    <label class="form-check-label" for="screem">
+                        речь эмоциональная, отрывистая, быстрая, постоянно переходит в крик; тараторю, глотаю слова и
+                        слоги
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="11" id="life"
+                        value="D">
+                    <label class="form-check-label" for="life">
+                        с жестами и мимикой, выразительная, живая
+                    </label>
+                </div>
+                <li>Движения:</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="12" id="solid"
+                        value="A">
+                    <label class="form-check-label" for="solid">
+                        солидные, неторопливые, нерасторопные
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="12" id="solidd"
+                        value="B">
+                    <label class="form-check-label" for="solidd">
+                        суетливые, неточные, неуверенные
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="12" id="dottad"
+                        value="C">
+                    <label class="form-check-label" for="dottad">
+                        резкие, порывистые
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="12" id="toc"
+                        value="D">
+                    <label class="form-check-label" for="toc">
+                        ритмичные, точные, уверенные
+                    </label>
+                </div>
+                <li>Привыкание к школе:</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="13" id="oooo"
+                        value="A">
+                    <label class="form-check-label" for="oooo">
+                        боязнь нового, нежелание перемен, долгая адаптация
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="13" id="hard"
+                        value="B">
+                    <label class="form-check-label" for="hard">
+                        долгое привыкание, трудная адаптация
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="13" id="with"
+                        value="C">
+                    <label class="form-check-label" for="with">
+                        легкое привыкание к новой обстановке, неохотное подчинение требованиям взрослых
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="13" id="sooo"
+                        value="D">
+                    <label class="form-check-label" for="sooo">
+                        адаптация легкая и быстрая
+                    </label>
+                </div>
+                <li>Особенности сна:</li>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="14" id="ko"
+                        value="A">
+                    <label class="form-check-label" for="ko">
+                        засыпаю быстро, сплю спокойно, состояние после сна вялое, сонное
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="14" id="koo"
+                        value="B">
+                    <label class="form-check-label" for="koo">
+                        укладываюсь спать долго, но засыпаю быстро, после сна состояние веселое
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="14" id="eee"
+                        value="C">
+                    <label class="form-check-label" for="eee">
+                        засыпаю долго и трудно, сон беспокойный, после сна состояние самое разное: от самого плохого, до
+                        самого хорошего
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="14" id="ee"
+                        value="D">
+                    <label class="form-check-label" for="ee">
+                        засыпаю быстро, сон крепкий, после сна состояние веселое.
+                </div>
+            </ol>
+        </div>
+        <div class="continueu">
+            <button onclick="MyFunction();"  type="button" class="buttones btn pap">Продолжить</button>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <li class="social__item"><a href="https://vk.com/officialschool90"><img src="./assets/icons/Vector.svg" alt="GitHub"></a></li>
+                </ul>
+                <div class="copyright">
+                    <p>© 2024-2025 project 11A class</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
